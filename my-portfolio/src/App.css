@@ -54,10 +54,24 @@
   }
 
   #bot {
-    position: absolute;
+    position: sticky;
     bottom: 0;
     width: 100%;
+    margin-top: 3vh;
   }
+
+  #picText {
+    color: var(--lightnight-2);
+    background: transparent;
+    font-weight: bolder;
+    top: -2vh;
+  }
+
+  .carousel-caption {
+    background: var(--electric);
+  }
+
+
 
   /* html {
     background: 
@@ -83,6 +97,8 @@
   }
 }
 
+
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -106,5 +122,19 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 390px) {
+
+  .carousel-indicators {
+    /* background: var(--electric); */
+    display: none;
+  }
+  #picText {
+    top: -2vh;
+    background-color: var(--electric);
+    color: var(--rich-black-fogra-29);
+    height: fit-content;
   }
 }

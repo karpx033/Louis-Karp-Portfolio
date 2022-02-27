@@ -43,11 +43,11 @@ function Top() {
         <Nav.Link  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} href="https://github.com/karpx033" target="_blank">Github</Nav.Link>
         <Nav.Link  style={{ color: 'var(--electric)' , marginLeft: 'min(3vh)'}} href="https://www.linkedin.com/in/louis-karp-7bb23a86/" target="_blank">LinkedIn</Nav.Link>
         <NavDropdown  style= {{marginLeft: 'min(3vh)'}} title="My Projects" id="basic-nav-dropdown">
-          <NavDropdown.Item id='electricfont' onClick={() => setProjectDisplay('Project1')} >Project 1</NavDropdown.Item>
-          <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project2')}>Project 2</NavDropdown.Item>
-          <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project3')}>Project 3</NavDropdown.Item>
+          <NavDropdown.Item id='electricfont' onClick={() => setProjectDisplay('Project1')} >The Tech Blog</NavDropdown.Item>
+          {/* <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project2')}>Project 2</NavDropdown.Item> */}
+          {/* <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project3')}>Project 3</NavDropdown.Item> */}
           <NavDropdown.Divider/>
-          <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project4')}>Group Project 3</NavDropdown.Item>
+          <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project4')}>Employee Scheduling Tool</NavDropdown.Item>
         </NavDropdown>
         <a  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="nav-link" href="/files/Louis.Karp.Resume.pdf" target="_blank"
             download="Louis Karp Resume">Resume</a>
@@ -62,7 +62,7 @@ function Top() {
     </Navbar.Collapse>
   </Container>
 </Navbar>
-<div class="main-section">
+<div className="main-section">
     {renderPage()}
 </div>
 </div>
