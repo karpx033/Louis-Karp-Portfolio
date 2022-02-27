@@ -13,11 +13,11 @@
 
 ## Screenshot
 
-[Screenshot](./PortfolioScreenshot.jpg)
+![Screenshot of portfolio](./PortfolioScreenshot.jpg)
 
 ## Live Link
 
-[Live link](https://intense-crag-88605.herokuapp.com/app)
+[Live portfolio URL](https://intense-crag-88605.herokuapp.com/app)
 
  ## Description
 
