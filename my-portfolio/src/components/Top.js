@@ -36,7 +36,7 @@ function Top() {
 <div>
 <Navbar bg="light" expand="lg">
   <Container>
-    <Navbar.Brand>Louis Karp</Navbar.Brand>
+    <Navbar.Brand onClick={() => setProjectDisplay('Home')}>Louis Karp</Navbar.Brand>
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
         <Nav.Link href="https://github.com/karpx033" target="_blank">Github</Nav.Link>

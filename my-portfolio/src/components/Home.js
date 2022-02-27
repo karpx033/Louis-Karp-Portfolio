@@ -1,17 +1,20 @@
 import Card from 'react-bootstrap/Card';
+import Image from 'react-bootstrap/Image';
 
 
 function Home() {
     return(
-        <Card style={{ width: '18rem' }}>
-  <Card.Img variant="top" src="holder.js/100px180" />
-  <Card.Body>
-    <Card.Title>Card Title</Card.Title>
+        <div>
+  <Image style={{ width: 'auto', height: '50vh' }}roundedCircle='true' src="files/ME.jpg" />
+<Card style={{ width: 'auto', height: 'auto' }}>
+<Card.Body>
+    <Card.Title>About Me</Card.Title>
     <Card.Text>
-     Home Text
+     I am a Full Stack Engineer who is passionate about coding. I thrive when challanged and always enjoy learning new things. 
     </Card.Text>
   </Card.Body>
 </Card>
+</div>
     )
 }
 

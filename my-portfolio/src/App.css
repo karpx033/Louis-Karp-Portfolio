@@ -1,3 +1,26 @@
+:root {
+  --black: #000000ff;
+  --rich-black-fogra-29: #00020bff;
+  --rich-black-fogra-29-2: #000315ff;
+  --xiketic: #000420ff;
+  --oxford-blue: #00052aff;
+  --oxford-blue-2: #000735ff;
+  --royal-blue-dark: #00083fff;
+  --midnight-blue: #000949ff;
+  --midnight-blue-2: #000a53ff;
+  --lightning-1: rgb(6, 195, 253);
+  --lightnight-2:  rgb(118, 216, 255);
+  }
+
+  /* html {
+    background: 
+    linear-gradient(217deg, var(--black), var(--lightning-1) 70.71%),
+    linear-gradient(127deg, var(--midnight-blue), var(--oxford-blue) 70.71%),
+    linear-gradient(336deg, var(--rich-black-fogra-29), var(--lightnight-2) 70.71%);
+    background-size: 100vw 100vh;
+    
+} */
+
 .App {
   text-align: center;
 }
