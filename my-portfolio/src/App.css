@@ -15,9 +15,24 @@
   }
 
 #basic-nav-dropdown {
-  color: var(--electric);
+  color: var(--lightning-1);
   background-color: var(--thegray);
   }
+
+  .navbar-light .navbar-toggler {
+    background: var(--electric);
+  }
+  .dropdown-menu.show {
+    background-color: var(--rich-black-fogra-29);
+    color: var(--electric);
+  }
+  
+  #electricfont {
+    color: var(--electric);
+    text-align: center;
+  }
+
+
   /* html {
     background: 
     linear-gradient(217deg, var(--black), var(--lightning-1) 70.71%),
@@ -56,6 +71,8 @@
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
