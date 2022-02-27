@@ -10,6 +10,7 @@ import React, { useState } from 'react';
 import Project3 from './Project3.js';
 import Project4 from './Project4.js';
 
+
 function Top() {
     const [clickedProject, setProjectDisplay] = useState('Home');
 
@@ -47,6 +48,15 @@ function Top() {
           <NavDropdown.Divider />
           <NavDropdown.Item onClick={() => setProjectDisplay('Project4')}>Group Project 3</NavDropdown.Item>
         </NavDropdown>
+        <a class="nav-link" href="/files/Louis.Karp.Resume.pdf" target="_blank"
+            download="Louis Karp Resume">Resume</a>
+        <span class="navbar-text" id="contact">
+        612.500.2948
+      </span>
+      <span class="navbar-text" id="contact">
+        Karpx033@umn.edu
+      </span>
+
       </Nav>
     </Navbar.Collapse>
   </Container>
