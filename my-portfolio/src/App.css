@@ -32,6 +32,26 @@
     text-align: center;
   }
 
+.main-section {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+
+.projectImg {
+  max-width: 80vw;
+  display: inline-block;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 
   /* html {
     background: 

@@ -62,7 +62,7 @@ function Top() {
     </Navbar.Collapse>
   </Container>
 </Navbar>
-<div>
+<div class="main-section">
     {renderPage()}
 </div>
 </div>
