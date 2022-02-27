@@ -34,26 +34,26 @@ function Top() {
 
     return (
 <div>
-<Navbar bg="light" expand="lg">
+<Navbar style={{ background: 'var(--thegray)'}}  expand="lg">
   <Container>
-    <Navbar.Brand onClick={() => setProjectDisplay('Home')}>Louis Karp</Navbar.Brand>
-    <Navbar.Collapse id="basic-navbar-nav">
+    <Navbar.Brand style={{ color: 'var(--electric)'}} onClick={() => setProjectDisplay('Home')}>Louis Karp</Navbar.Brand>
+    <Navbar.Collapse id="basic-navbar-nav" >
       <Nav className="me-auto">
-        <Nav.Link href="https://github.com/karpx033" target="_blank">Github</Nav.Link>
-        <Nav.Link href="https://www.linkedin.com/in/louis-karp-7bb23a86/" target="_blank">LinkedIn</Nav.Link>
-        <NavDropdown title="My Projects" id="basic-nav-dropdown">
-          <NavDropdown.Item onClick={() => setProjectDisplay('Project1')} >Project 1</NavDropdown.Item>
-          <NavDropdown.Item onClick={() => setProjectDisplay('Project2')}>Project 2</NavDropdown.Item>
-          <NavDropdown.Item onClick={() => setProjectDisplay('Project3')}>Project 3</NavDropdown.Item>
-          <NavDropdown.Divider />
-          <NavDropdown.Item onClick={() => setProjectDisplay('Project4')}>Group Project 3</NavDropdown.Item>
+        <Nav.Link style={{ color: 'var(--electric)'}} href="https://github.com/karpx033" target="_blank">Github</Nav.Link>
+        <Nav.Link style={{ color: 'var(--electric)'}} href="https://www.linkedin.com/in/louis-karp-7bb23a86/" target="_blank">LinkedIn</Nav.Link>
+        <NavDropdown  title="My Projects" id="basic-nav-dropdown">
+          <NavDropdown.Item  onClick={() => setProjectDisplay('Project1')} >Project 1</NavDropdown.Item>
+          <NavDropdown.Item style={{ background: 'var(--thegray)', color: 'var(--electric)'}} onClick={() => setProjectDisplay('Project2')}>Project 2</NavDropdown.Item>
+          <NavDropdown.Item style={{ background: 'var(--thegray)', color: 'var(--electric)'}} onClick={() => setProjectDisplay('Project3')}>Project 3</NavDropdown.Item>
+          <NavDropdown.Divider style={{ background: 'var(--thegray)', color: 'var(--electric)'}}/>
+          <NavDropdown.Item style={{ background: 'var(--thegray)', color: 'var(--electric)'}} onClick={() => setProjectDisplay('Project4')}>Group Project 3</NavDropdown.Item>
         </NavDropdown>
-        <a class="nav-link" href="/files/Louis.Karp.Resume.pdf" target="_blank"
+        <a style={{ color: 'var(--electric)', marginLeft: '10vh'}} class="nav-link" href="/files/Louis.Karp.Resume.pdf" target="_blank"
             download="Louis Karp Resume">Resume</a>
-        <span class="navbar-text" id="contact">
+        <span style={{ color: 'var(--electric)', marginLeft: '10vh'}} class="navbar-text" id="contact">
         612.500.2948
       </span>
-      <span class="navbar-text" id="contact">
+      <span style={{ color: 'var(--electric)', marginLeft: '10vh'}} class="navbar-text" id="contact">
         Karpx033@umn.edu
       </span>
 

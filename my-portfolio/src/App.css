@@ -10,8 +10,14 @@
   --midnight-blue-2: #000a53ff;
   --lightning-1: rgb(6, 195, 253);
   --lightnight-2:  rgb(118, 216, 255);
+  --thegray: rgb(24, 45, 53);
+  --electric: rgb(138, 237, 255);
   }
 
+#basic-nav-dropdown {
+  color: var(--electric);
+  background-color: var(--thegray);
+  }
   /* html {
     background: 
     linear-gradient(217deg, var(--black), var(--lightning-1) 70.71%),
