@@ -53,6 +53,12 @@
     height: auto;
   }
 
+  #bot {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
   /* html {
     background: 
     linear-gradient(217deg, var(--black), var(--lightning-1) 70.71%),
