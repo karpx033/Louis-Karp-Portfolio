@@ -92,12 +92,12 @@ function Project1() {
         <Card.Body>
           <Card.Title>Tech Blog</Card.Title>
           <Card.Text>
-            <p>The purpose of the application is to This app is designed to let the user enter, save, and
+            <p>This app is designed to let the user enter, save, and
         delete notes via a front end experience. Data is stored in a database.
             </p>
             <div className="media-body">
           <h5 className="mt-0">Links:</h5>
-          <a id="whitetext" href="https://desolate-dawn-08072.herokuapp.com/">Deployed application</a>
+          <a id="whitetext" href="https://tech-blog-site.herokuapp.com/">Deployed application</a>
           <br></br>
    
           <a id="whitetext" href="https://github.com/karpx033/Tech-Blog">GitHub repository</a>

@@ -52,10 +52,7 @@ function Project4() {
         <Card.Body>
           <Card.Title>Employee Scheduling Tool</Card.Title>
           <Card.Text>
-            <p>My second group project. The purpose off the application is to display current and historical covid data for the
-            area around a searched event. The app will display a sorted list with clickable links to the event in a table
-            adjacent to a table that displays the covid data. Primary languages include CSS and jquery. Uses API calls to
-            generate data and saves them in local storage. Framework built from Bulma.
+            <p>My second group project. The purpose off the application is designed to allow a manager to enter employees’ time off requests and display a cumulative table and calendar of those schedules, allowing for easier shift schedule construction.
             </p>
             <div className="media-body">
           <h5 className="mt-0">Links:</h5>
