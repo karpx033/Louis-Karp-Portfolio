@@ -43,6 +43,8 @@ function Top() {
         <Nav.Link  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} href="https://github.com/karpx033" target="_blank">Github</Nav.Link>
         <Nav.Link  style={{ color: 'var(--electric)' , marginLeft: 'min(3vh)'}} href="https://www.linkedin.com/in/louis-karp-7bb23a86/" target="_blank">LinkedIn</Nav.Link>
         <NavDropdown  style= {{marginLeft: 'min(3vh)'}} title="My Projects" id="basic-nav-dropdown">
+          <NavDropdown.Item id='electricfont' onClick={() => setProjectDisplay('Project2')} >Barnyard Symphony</NavDropdown.Item>
+          <NavDropdown.Divider/>
           <NavDropdown.Item id='electricfont' onClick={() => setProjectDisplay('Project1')} >The Tech Blog</NavDropdown.Item>
           {/* <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project2')}>Project 2</NavDropdown.Item> */}
           {/* <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project3')}>Project 3</NavDropdown.Item> */}

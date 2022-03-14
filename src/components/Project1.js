@@ -12,9 +12,9 @@ function Project1() {
             src="files/TechBlogHomepage.jpg"
             alt="Homepage Slide"
           />
-          <Carousel.Caption id="picText">
+          {/* <Carousel.Caption id="picText">
             <p>Homepage</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -22,9 +22,9 @@ function Project1() {
             src="files/TechBlogSignup.jpg"
             alt="Signup Slide"
           />
-          <Carousel.Caption id="picText">
+          {/* <Carousel.Caption id="picText">
             <p>Signup Page</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -32,9 +32,9 @@ function Project1() {
             src="files/TechBlogWelcome.jpg"
             alt="Welcome Page Slide"
           />
-          <Carousel.Caption id="picText">
+          {/* <Carousel.Caption id="picText">
             <p>Welcome page upon logging in displaying all posts</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -42,9 +42,9 @@ function Project1() {
             src="files/TechBlogNewPost.jpg"
             alt="New Post Creation Slide"
           />
-          <Carousel.Caption id="picText">
+          {/* <Carousel.Caption id="picText">
             <p>New post page afterclicking the add post button</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -52,9 +52,9 @@ function Project1() {
             src="files/TechBlogCreated.jpg"
             alt="New Homepage Slide"
           />
-          <Carousel.Caption id="picText">
+          {/* <Carousel.Caption id="picText">
             <p>Homepage again showing newly created post with commentable, clickable title</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -62,9 +62,9 @@ function Project1() {
             src="files/TechBlogComment2.jpg"
             alt="Comment Slide"
           />
-          <Carousel.Caption id="picText">
+          {/* <Carousel.Caption id="picText">
             <p>Comments can be made to each post</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -72,9 +72,9 @@ function Project1() {
             src="files/TechBlogComment.jpg"
             alt="Comment Slide"
           />
-          <Carousel.Caption id="picText">
+          {/* <Carousel.Caption id="picText">
             <p>Comment is linked to the post</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -82,9 +82,9 @@ function Project1() {
             src="files/TechBlogEditPost.jpg"
             alt="Post Slide"
           />
-          <Carousel.Caption id="picText">
+          {/* <Carousel.Caption id="picText">
             <p>Posts are even editable and deletable by the user</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
 

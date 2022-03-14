@@ -12,9 +12,9 @@ function Project4() {
             src="files/EmployeeScheduling1.jpg"
             alt="Homepage Slide"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <p>Homepage</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -22,9 +22,9 @@ function Project4() {
             src="files/EmployeeScheduling2.jpg"
             alt="Login/Sign Up Slide"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <p>Login/Sign Up</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -32,9 +32,9 @@ function Project4() {
             src="files/EmployeeScheduling3.jpg"
             alt="Availabilities Slide"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <p>Compiled Availabilities Table with dynamic Calendar</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -42,9 +42,9 @@ function Project4() {
             src="files/EmployeeScheduling4.jpg"
             alt="Availability Form Slide"
           />
-          <Carousel.Caption>
+          {/* <Carousel.Caption>
             <p>Availability form with dynamically updating calendar</p>
-          </Carousel.Caption>
+          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
 
