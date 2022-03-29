@@ -5,7 +5,7 @@ import Image from 'react-bootstrap/Image';
 function Home() {
     return(
         <div >
-  <Image style={{ width: 'auto', height: '50vh' }}roundedCircle='true' src="files/ME.jpg" />
+  <Image style={{ width: 'auto', height: '50vh' }}roundedCircle='true' src="files/Louis.Headshot.jpg" />
 <Card style={{ width: 'auto', height: 'auto', marginTop: '5vh'}}>
 <Card.Body>
     <Card.Title clas="projectImg">About Me</Card.Title>
