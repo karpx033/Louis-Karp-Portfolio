@@ -51,7 +51,7 @@ function Top() {
           <NavDropdown.Divider/>
           <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project4')}>Employee Scheduling Tool</NavDropdown.Item>
         </NavDropdown>
-        <a  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="nav-link" href="/files/Louis.Karp.Full.Stack.pdf" target="_blank"
+        <a  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="nav-link" href="/files/Louis.Karp.Resume.2022.pdf" target="_blank"
             download="Louis Karp Resume">Resume</a>
         <span  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="navbar-text" id="contact">
         612.500.2948
