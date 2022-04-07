@@ -18,12 +18,22 @@ function Home() {
 </Card>
 <Card style={{ marginTop: '10vh'}}>
   <Card.Body>
-    <Card.Title>Skills</Card.Title>
-    <Card.Text>
-    <FontAwesomeIcon icon="fa-brands fa-html5" />
-    <FontAwesomeIcon icon="fa-brands fa-css3" />
-    <FontAwesomeIcon icon={faCoffee} />
-    </Card.Text>
+    <Card.Title>Languages, Libraries, and Technologies Known</Card.Title>
+    <div style={{marginTop: '3vh', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly'}}>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-html5 fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-css3 fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-js-square fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-sass fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-bootstrap fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-node fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-node-js fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-database fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-server fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-react fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-npm fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-git fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-github fa-2xl"></i></span>
+    </div>
   </Card.Body>
 </Card>
 </div>
