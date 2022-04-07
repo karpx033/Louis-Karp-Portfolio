@@ -36,10 +36,11 @@ function Top() {
 <div>
 <Navbar style={{ background: 'var(--thegray)'}}  expand="lg">
   <Container>
-    <Navbar.Brand style={{ color: 'var(--electric)', fontSize: '3vh'}} onClick={() => setProjectDisplay('Home')}>Louis Karp</Navbar.Brand>
+    <Navbar.Brand style={{ color: 'white', fontSize: '3vh'}}>Louis Karp</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav" >
       <Nav className="me-auto">
+        <Nav.Link style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} onClick={() => setProjectDisplay('Home')} >About Me</Nav.Link>
         <Nav.Link  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} href="https://github.com/karpx033" target="_blank">Github</Nav.Link>
         <Nav.Link  style={{ color: 'var(--electric)' , marginLeft: 'min(3vh)'}} href="https://www.linkedin.com/in/louis-karp-7bb23a86/" target="_blank">LinkedIn</Nav.Link>
         <NavDropdown  style= {{marginLeft: 'min(3vh)'}} title="My Projects" id="basic-nav-dropdown">
@@ -53,13 +54,13 @@ function Top() {
         </NavDropdown>
         <a  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="nav-link" href="/files/Louis.Karp.Resume.2022.pdf" target="_blank"
             download="Louis Karp Resume">Resume</a>
-        <span  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="navbar-text" id="contact">
+        {/* <span  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="navbar-text" id="contact">
         612.500.2948
       </span>
       <span style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="navbar-text" id="contact">
-        Karpx033@umn.edu
-      </span>
-
+        karpx033@gmail.com
+      </span> */}
+      
       </Nav>
     </Navbar.Collapse>
   </Container>

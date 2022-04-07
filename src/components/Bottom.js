@@ -5,9 +5,9 @@ return (
     <Card id="bot">
         <Card.Footer>
             <div style={{justifyContent: 'space-evenly', display: 'flex'}}>
-            <span> Louis Karp</span>
+            <span>Louis Karp</span>
             <span>612.500.2948</span>
-            <span>Karpx033@umn.edu</span>
+            <span>karpx033@gmail.com</span>
             </div>
         </Card.Footer>
     </Card>
