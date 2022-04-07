@@ -47,20 +47,11 @@ function Top() {
           <NavDropdown.Item id='electricfont' onClick={() => setProjectDisplay('Project2')} >Barnyard Symphony</NavDropdown.Item>
           <NavDropdown.Divider/>
           <NavDropdown.Item id='electricfont' onClick={() => setProjectDisplay('Project1')} >The Tech Blog</NavDropdown.Item>
-          {/* <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project2')}>Project 2</NavDropdown.Item> */}
-          {/* <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project3')}>Project 3</NavDropdown.Item> */}
           <NavDropdown.Divider/>
           <NavDropdown.Item  id='electricfont' onClick={() => setProjectDisplay('Project4')}>Employee Scheduling Tool</NavDropdown.Item>
         </NavDropdown>
         <a  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="nav-link" href="/files/Louis.Karp.Resume.2022.pdf" target="_blank"
             download="Louis Karp Resume">Resume</a>
-        {/* <span  style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="navbar-text" id="contact">
-        612.500.2948
-      </span>
-      <span style={{ color: 'var(--electric)', marginLeft: 'min(3vh)'}} className="navbar-text" id="contact">
-        karpx033@gmail.com
-      </span> */}
-      
       </Nav>
     </Navbar.Collapse>
   </Container>

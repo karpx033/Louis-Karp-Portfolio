@@ -12,8 +12,9 @@ function Home() {
 <Card.Body>
     <Card.Title clas="projectImg">About Me</Card.Title>
     <Card.Text>
-     I am a Full Stack Engineer who is passionate about coding. I thrive when challanged and always enjoy learning new things. At home my favorite hobbies are playing guitar, singing, and gaming. 
+     I am a Full Stack Developer who is passionate about coding and loves working on projects. I thrive when challanged to critically think and always enjoy learning new things. I am a recent graduate of the Full Stack Web Development program offered through the University of Minnesota. My professional work history is in logistics and operations management at a local brewery in Minneapolis, MN. Additionally I have attained a Bachelor's in Fisheries and Wildlife from the University of Minnesota.
     </Card.Text>
+    <Card.Text>At home my favorite hobbies are playing guitar, singing, and gaming. </Card.Text>
   </Card.Body>
 </Card>
 <Card style={{ marginTop: '10vh'}}>
@@ -33,6 +34,7 @@ function Home() {
     <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-npm fa-2xl"></i></span>
     <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-git fa-2xl"></i></span>
     <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-github fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-font-awesome"></i></span>
     </div>
   </Card.Body>
 </Card>
