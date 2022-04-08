@@ -50,12 +50,12 @@ function Project4() {
 
       <Card>
         <Card.Body>
-          <Card.Title>Employee Scheduling Tool</Card.Title>
+          <Card.Title style={{fontSize: '3vh' }}>Employee Scheduling Tool</Card.Title>
           <Card.Text>
             <p>This is my second group project. The purpose off the application is designed to allow a manager to enter multiple employees’ time off requests and display a cumulative table and calendar of those schedules, allowing for easier shift schedule construction. I assumed the role of project manager on this project.
             </p>
             <div className="media-body">
-          <h5 className="mt-0">Links:</h5>
+          <h5 className="mt-0" style={{fontSize: '3vh' }}>Links:</h5>
           <a id="whitetext" href="https://shrouded-anchorage-20681.herokuapp.com/">Deployed application</a>
           <br></br>
    
@@ -63,7 +63,7 @@ function Project4() {
 
         </div>
           </Card.Text>
-          <Card.Text>Languages, Libraries, and Technologies Used:</Card.Text>
+          <Card.Text style={{fontSize: '3vh' }}>Languages, Libraries, and Technologies Used:</Card.Text>
           <Card.Text>
           <div style={{marginTop: '3vh', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly'}}>
     <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-html5 fa-2xl"></i></span>

@@ -66,13 +66,13 @@ function Project1() {
 
       <Card>
         <Card.Body>
-          <Card.Title>Tech Blog</Card.Title>
+          <Card.Title style={{fontSize: '3vh' }}>Tech Blog</Card.Title>
           <Card.Text>
             <p>This app is designed to let the user enter, save, and
         delete posts and comments on a hosted server. Data is stored in a database and is retrievable upon logging in
             </p>
             <div className="media-body">
-          <h5 className="mt-0">Links:</h5>
+          <h5 className="mt-0" style={{fontSize: '3vh' }}>Links:</h5>
           <a id="whitetext" href="https://tech-blog-site.herokuapp.com/">Deployed application</a>
           <br></br>
    
@@ -80,7 +80,7 @@ function Project1() {
 
         </div>
           </Card.Text>
-          <Card.Text>Languages, Libraries, and Technologies Used:</Card.Text>
+          <Card.Text style={{fontSize: '3vh' }}>Languages, Libraries, and Technologies Used:</Card.Text>
           <Card.Text>
           <div style={{marginTop: '3vh', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly'}}>
           <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-html5 fa-2xl"></i></span>
