@@ -36,6 +36,7 @@ function Home() {
     <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-github fa-2xl"></i></span>
     <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-font-awesome"></i></span>
     </div>
+    <div style={{marginTop: '5vh'}}>As well as Handlebars, Sequelize, Mongodb, Mysql, Graphql, JWT, Dotenv, and Express</div>
   </Card.Body>
 </Card>
 </div>

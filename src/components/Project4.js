@@ -52,7 +52,7 @@ function Project4() {
         <Card.Body>
           <Card.Title>Employee Scheduling Tool</Card.Title>
           <Card.Text>
-            <p>My second group project. The purpose off the application is designed to allow a manager to enter employees’ time off requests and display a cumulative table and calendar of those schedules, allowing for easier shift schedule construction.
+            <p>This is my second group project. The purpose off the application is designed to allow a manager to enter multiple employees’ time off requests and display a cumulative table and calendar of those schedules, allowing for easier shift schedule construction. I assumed the role of project manager on this project.
             </p>
             <div className="media-body">
           <h5 className="mt-0">Links:</h5>
@@ -62,6 +62,23 @@ function Project4() {
           <a id="whitetext" href="https://github.com/karpx033/Employee-Tracker">GitHub repository</a>
 
         </div>
+          </Card.Text>
+          <Card.Text>Languages, Libraries, and Technologies Used:</Card.Text>
+          <Card.Text>
+          <div style={{marginTop: '3vh', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly'}}>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-html5 fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-css3 fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-js-square fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-bootstrap fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-node fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-node-js fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-database fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-server fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-npm fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-git fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-github fa-2xl"></i></span>
+    </div>
+    <div style={{marginTop: '5vh'}}>As well as Handlebars, Sequelize, Mysql, Dotenv, and Express</div>
           </Card.Text>
         </Card.Body>
       </Card>

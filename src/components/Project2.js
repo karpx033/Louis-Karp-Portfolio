@@ -47,7 +47,7 @@ function Project2() {
         <Card.Body>
           <Card.Title>Barnyard Symphony</Card.Title>
           <Card.Text>
-            <p>Children’s app designed to allow a logged in user to view various farm animals and play their respective sounds, save them to a favorited animals page, as well as a three octave piano using the animals’ sounds as notes
+            <p>This is my final group project. It is a children’s app designed to allow a logged in user to view various farm animals and play their respective sounds, save them to a favorited animals page, as well as play them through three octave piano using the animals’ sounds as notes. I assumed the role of porject manager on this project.
             </p>
             <div className="media-body">
           <h5 className="mt-0">Links:</h5>
@@ -57,6 +57,24 @@ function Project2() {
           <a id="whitetext" href="https://github.com/karpx033/Barnyard-Symphony-">GitHub repository</a>
 
         </div>
+          </Card.Text>
+          <Card.Text>Languages, Libraries, and Technologies Used:</Card.Text>
+          <Card.Text>
+          <div style={{marginTop: '3vh', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly'}}>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-html5 fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-css3 fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-js-square fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-bootstrap fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-database fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-server fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-react fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-npm fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-git fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-github fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-node fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-node-js fa-2xl"></i></span>
+    </div>
+    <div style={{marginTop: '5vh'}}>As well as Graphql, Mongodb, and JWT</div>
           </Card.Text>
         </Card.Body>
       </Card>

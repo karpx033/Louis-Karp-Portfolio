@@ -12,9 +12,6 @@ function Project1() {
             src="files/TechBlogHomepage.jpg"
             alt="Homepage Slide"
           />
-          {/* <Carousel.Caption id="picText">
-            <p>Homepage</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -22,9 +19,6 @@ function Project1() {
             src="files/TechBlogSignup.jpg"
             alt="Signup Slide"
           />
-          {/* <Carousel.Caption id="picText">
-            <p>Signup Page</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -32,9 +26,6 @@ function Project1() {
             src="files/TechBlogWelcome.jpg"
             alt="Welcome Page Slide"
           />
-          {/* <Carousel.Caption id="picText">
-            <p>Welcome page upon logging in displaying all posts</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -42,9 +33,6 @@ function Project1() {
             src="files/TechBlogNewPost.jpg"
             alt="New Post Creation Slide"
           />
-          {/* <Carousel.Caption id="picText">
-            <p>New post page afterclicking the add post button</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -52,9 +40,6 @@ function Project1() {
             src="files/TechBlogCreated.jpg"
             alt="New Homepage Slide"
           />
-          {/* <Carousel.Caption id="picText">
-            <p>Homepage again showing newly created post with commentable, clickable title</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -62,9 +47,6 @@ function Project1() {
             src="files/TechBlogComment2.jpg"
             alt="Comment Slide"
           />
-          {/* <Carousel.Caption id="picText">
-            <p>Comments can be made to each post</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -72,9 +54,6 @@ function Project1() {
             src="files/TechBlogComment.jpg"
             alt="Comment Slide"
           />
-          {/* <Carousel.Caption id="picText">
-            <p>Comment is linked to the post</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -82,9 +61,6 @@ function Project1() {
             src="files/TechBlogEditPost.jpg"
             alt="Post Slide"
           />
-          {/* <Carousel.Caption id="picText">
-            <p>Posts are even editable and deletable by the user</p>
-          </Carousel.Caption> */}
         </Carousel.Item>
       </Carousel>
 
@@ -93,7 +69,7 @@ function Project1() {
           <Card.Title>Tech Blog</Card.Title>
           <Card.Text>
             <p>This app is designed to let the user enter, save, and
-        delete notes via a front end experience. Data is stored in a database.
+        delete posts and comments on a hosted server. Data is stored in a database and is retrievable upon logging in
             </p>
             <div className="media-body">
           <h5 className="mt-0">Links:</h5>
@@ -103,6 +79,23 @@ function Project1() {
           <a id="whitetext" href="https://github.com/karpx033/Tech-Blog">GitHub repository</a>
 
         </div>
+          </Card.Text>
+          <Card.Text>Languages, Libraries, and Technologies Used:</Card.Text>
+          <Card.Text>
+          <div style={{marginTop: '3vh', display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly'}}>
+          <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-html5 fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-css3 fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-js-square fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-bootstrap fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-node fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-node-js fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-database fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-solid fa-server fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-npm fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-git fa-2xl"></i></span>
+    <span style={{marginLeft: '2vw', marginTop: '2vh'}}><i class="fa-brands fa-github fa-2xl"></i></span>
+    </div>
+    <div style={{marginTop: '5vh'}}>As well as Handlebars, Sequelize, Mysql, Dotenv, and Express</div>
           </Card.Text>
         </Card.Body>
       </Card>
